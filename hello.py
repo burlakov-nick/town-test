@@ -11,11 +11,18 @@ def mul(a, b):
 
 
 def sum_3(a, b, c):
-    return sum(sum(a, b), c)
+    return sum_2(sum_2(a, b), c)
 
 
 def sum_4(a, b, c, d):
-    return sum(sum(a, b), sum(c, d))
+    return sum_2(sum_2(a, b), sum_2(c, d))
+
+
+def add(*args):
+    r = 0
+    for arg in args:
+        r += arg
+    return r
 
 
 if __name__ == "__main__":
@@ -23,3 +30,4 @@ if __name__ == "__main__":
     print(sum_3(1, 2, 6))
     print(sum_4(1, 2, 3, 4))
     print(sum_3(1, 2, 6))
+    add(1, 2, 3)
