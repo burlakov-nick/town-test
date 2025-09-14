@@ -38,4 +38,8 @@ if __name__ == "__main__":
     add(1, 2, 3, 4)
     add(1, 2, 3, 4, 5)
 
+    # for future changes
+    add2 = lambda x: add(x, 2)
+    print(add2(1))
+
     print("all done")
