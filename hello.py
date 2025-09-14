@@ -22,3 +22,4 @@ if __name__ == "__main__":
     main()
     print(sum_3(1, 2, 3))
     print(sum_4(1, 2, 3, 4))
+    print(sum_3(1, 2, 6))
