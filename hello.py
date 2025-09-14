@@ -43,3 +43,4 @@ if __name__ == "__main__":
     print(add2(1))
 
     print("all done")
+    print("quit")
