@@ -20,3 +20,4 @@ def sum_4(a, b, c, d):
 
 if __name__ == "__main__":
     main()
+    print(sum_3(1, 2, 3))
