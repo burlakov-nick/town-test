@@ -18,8 +18,11 @@ def sum_4(a, b, c, d):
     return sum_2(sum_2(a, b), sum_2(c, d))
 
 
+INIT = 0
+
+
 def add(*args):
-    r = 0
+    r = INIT
     # sum everything
     for arg in args:
         r += arg
@@ -35,3 +38,4 @@ if __name__ == "__main__":
     add(1, 2, 3, 4)
     add(1, 2, 3, 4, 5)
 
+    print("all done")
