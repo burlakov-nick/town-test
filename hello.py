@@ -20,6 +20,7 @@ def sum_4(a, b, c, d):
 
 def add(*args):
     r = 0
+    # sum everything
     for arg in args:
         r += arg
     return r
