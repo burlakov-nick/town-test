@@ -18,7 +18,7 @@ def sum_4(a, b, c, d):
     return sum_2(sum_2(a, b), sum_2(c, d))
 
 
-INIT = 0
+INIT = 1
 
 
 def add(*args):
