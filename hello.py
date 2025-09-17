@@ -21,7 +21,7 @@ def sum_4(a, b, c, d):
 INIT = 1
 
 
-def add(*args):
+def add(*args, **kwargs):
     r = INIT
     # sum everything
     for arg in args:
